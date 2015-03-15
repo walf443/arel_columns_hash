@@ -1,6 +1,11 @@
 # ArelColumnsHash
 
-TODO: Write a gem description
+Monkey patch for fix Arel column_cache. (use AR model columns_hash)
+
+see https://github.com/rails/arel/pull/358
+
+[![Gem Version](https://badge.fury.io/rb/arel_columns_hash.svg)](http://badge.fury.io/rb/arel_columns_hash)
+[![Build Status](https://travis-ci.org/winebarrel/arel_columns_hash.svg?branch=master)](https://travis-ci.org/winebarrel/arel_columns_hash)
 
 ## Installation
 
@@ -17,15 +22,3 @@ And then execute:
 Or install it yourself as:
 
     $ gem install arel_columns_hash
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/arel_columns_hash/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request

@@ -2,6 +2,7 @@ require "minitest/autorun"
 require "arel"
 require "arel_columns_hash"
 require "fake_record"
+require "active_record"
 
 Arel::Table.engine = Arel::Sql::Engine.new(FakeRecord::Base.new)
 

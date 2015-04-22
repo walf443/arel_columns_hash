@@ -1,3 +1,7 @@
-require "arel"
+require "active_support"
 require "arel_columns_hash/version"
-require "arel_columns_hash/to_sql"
+
+ActiveSupport.on_load :active_record do
+  require "arel_columns_hash/to_sql"
+end
+

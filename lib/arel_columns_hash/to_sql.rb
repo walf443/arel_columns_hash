@@ -16,7 +16,7 @@ class Arel::Visitors::ToSql
   end
 
   def get_relation_engine_has_columns_hash(relation)
-    return nil has_columns_hash?(relation)
+    return nil unless has_columns_hash?(relation)
 
     relation_engine = relation.engine
 
